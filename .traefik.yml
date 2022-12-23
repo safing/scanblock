@@ -1,0 +1,27 @@
+# The name of your plugin as displayed in the Plugins Catalog web UI.
+displayName: Scan Block
+
+# For now, `middleware` is the only type available.
+type: middleware
+
+# The import path of your plugin.
+import: "github.com/safing/scanblock"
+
+# A brief description of what your plugin is doing.
+summary: Blocks scanning IPs by counting 4xx status codes until a limit is hit.
+
+# Medias associated to the plugin (optional)
+# iconPath: foo/icon.png
+# bannerPath: foo/banner.png
+
+# Configuration data for your plugin.
+# This is mandatory,
+# and Plugins Catalog will try to execute the plugin with the data you provide as part of its startup validity tests.
+testData:
+  minScanRequests: 2
+  minTotalRequests: 4
+  minScanPercent: 50
+  blockPrivate: true
+  playGames: false
+  blockSeconds: 5
+  rememberSeconds: 10

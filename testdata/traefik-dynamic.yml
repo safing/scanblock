@@ -1,0 +1,12 @@
+http:
+  middlewares:
+    my-scanblock:
+      plugin:
+        scanblock:
+          minScanRequests: 2
+          minTotalRequests: 4
+          minScanPercent: 50
+          blockPrivate: true
+          playGames: false
+          blockSeconds: 5
+          rememberSeconds: 10
