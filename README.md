@@ -1,6 +1,6 @@
 # Scan Block Traefik Plugin
 
-Traefik plugin that blocks scanning IPs by counting 4xx status codes until a limit is hit.
+Traefik plugin that blocks scanner IPs by counting 4xx status codes until a limit is hit.
 
 Can also play games with scanners.
 

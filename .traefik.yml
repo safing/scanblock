@@ -8,7 +8,7 @@ type: middleware
 import: "github.com/safing/scanblock"
 
 # A brief description of what your plugin is doing.
-summary: Blocks scanning IPs by counting 4xx status codes until a limit is hit.
+summary: Blocks scanner IPs by counting 4xx status codes until a limit is hit.
 
 # Medias associated to the plugin (optional)
 # iconPath: foo/icon.png
